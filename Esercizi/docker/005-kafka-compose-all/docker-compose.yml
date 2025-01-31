@@ -220,5 +220,5 @@ services:
 
 networks:
   net-corso-apache:
-    name: net-corso-apache  # stesso nome esplicito
+    # name: net-corso-apache  # stesso nome esplicito
     driver: bridge
