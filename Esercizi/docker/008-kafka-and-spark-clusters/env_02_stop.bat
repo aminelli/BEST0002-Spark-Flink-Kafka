@@ -1,3 +1,3 @@
 @echo off
 
-docker compose --project-name kafka-all-conf down -v 
+docker compose --project-name kafka-cluster down -v 

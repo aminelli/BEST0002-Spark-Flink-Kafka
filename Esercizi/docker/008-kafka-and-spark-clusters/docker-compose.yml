@@ -41,7 +41,7 @@ services:
       - "9094:9094"
       - "9103:9101"
     env_file:
-      - .env.kafka02
+      - .env.kafka03
     healthcheck:
       test: nc -z localhost 9094 || exit 1
       interval: 30s
